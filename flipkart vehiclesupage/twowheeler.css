@@ -1,0 +1,276 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #2874f0;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .navbar input {
+    width: 50%;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+  }
+  .link{
+    color: #2874f0;
+  }
+  /* Dropdown Nav Styles */
+.dropdown-nav {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+  }
+  
+  .nav-menu > li {
+    position: relative;
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 36px;
+    left: 0;
+    min-width: 180px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 10;
+    border-radius: 4px;
+    padding: 10px 0;
+  }
+  
+  .dropdown-content li {
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+  
+  .dropdown-content li:hover {
+    background-color: #f1f3f6;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .vecicles-p{
+    color: gray;
+    text-decoration-thickness: auto;
+  }
+  .login-btn {
+    padding: 8px 12px;
+    background: white;
+    color: #2874f0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  /* Layout */
+  .main-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Content */
+  .content {
+    flex: 1;
+  }
+  
+  /* Titles */
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+  }
+  
+  /* Products */
+  .product-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  .product-card {
+    flex: 0 0 auto;
+    background: white;
+    padding: 12px;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .product-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  .product-card img:hover{
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+  }
+  .product-card h3 {
+    font-size: 16px;
+  }
+  .product-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Promo Info */
+  .promo-info {
+    background: #fff6e5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .promo-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #172337;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #878787;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column li:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  /* Mobile & Tablet Responsive Styles */
+@media (max-width: 1024px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .navbar input {
+      width: 100%;
+    }
+  
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .category-scroll {
+      padding: 10px;
+      gap: 8px;
+      overflow-x: auto;
+    }
+  
+    .product-carousel {
+      gap: 10px;
+      padding-bottom: 16px;
+    }
+  
+    .product-card {
+      width: 160px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar .logo {
+      font-size: 20px;
+    }
+  
+    .login-btn {
+      width: 100%;
+    }
+  
+    .product-card img {
+      height: 120px;
+    }
+  
+    .promo-info h2 {
+      font-size: 18px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-column {
+      width: 100%;
+    }
+  }
+  

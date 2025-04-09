@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Style Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span>Flipkart</span> <small>Explore <span class="plus">Plus</span></small>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="nav-links">
+            <div class="login-container">
+                <button class="login-btn">Login</button>
+                <div class="login-dropdown">
+                    <p>New customer? <a href="/http://127.0.0.1:5500/Flipkart%20all/signup.html">Sign Up</a>
+                    <a href="#"><i class="fas fa-user"></i> My Profile</a>
+                    <a href="#"><i class="fas fa-gem"></i> Flipkart Plus Zone</a>
+                    <a href="#"><i class="fas fa-box"></i> Orders</a>
+                    <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+                    <a href="#"><i class="fas fa-gift"></i> Rewards</a>
+                    <a href="#"><i class="fas fa-credit-card"></i> Gift Cards</a>
+                  </p>
+                </div>
+            </div>
+            <a href="#">Become a Seller</a>
+            <div class="dropdown">
+                <button class="dropbtn">More <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Notification Preferences</a>
+                    <a href="#">Customer Support</a>
+                    <a href="#">Download App</a>
+                </div>
+            </div>
+            <a href="#" class="cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+    </nav>
+
+    <div class="category-bar">
+        <div class="category-item">
+            <img src="https://rukminim2.flixcart.com/flap/70/70/image/29327f40e9c4d26b.png?q=100" alt="Kilos">
+            <span>Kilos</span>
+        </div>
+        <div class="category-item">
+            <img src="https://rukminim2.flixcart.com/flap/70/70/image/22fddf3c7da4c4f4.png?q=100" alt="Mobiles">
+            <span>Mobiles</span>
+        </div>
+        <div class="category-item" id="fashion-item">
+            <img src="img3.png" alt="Fashion">
+            <span>Fashion</span>
+            <span class="arrow"></span>
+            <div class="dropdown-container" id="fashion-dropdown">
+                <div class="dropdown-column">
+                    <a href="#">Men's Top Wear</a>
+                    <a href="/dropdown mens wear/dropdmens.html">Men's Bottom Wear</a>
+                    <a href="#">Women Ethnic</a>
+                    <a href="#">Men Footwear</a>
+                    <a href="#">Women Footwear</a>
+                    <a href="#">Watches and Accessories</a>
+                    <a href="#">Women Western</a>
+                    <a href="#">Bags, Suitcases & Luggage</a>
+                    <a href="http://127.0.0.1:5500/Flipkart%20all/mon.html">Kids</a>
+                    <a href="#">Essentials</a>
+                    <a href="#">Winter</a>
+                </div>
+                <div class="dropdown-column">
+                    <a href="#">More in Men's Top Wear > All</a>
+                    <a href="#">Men's T-Shirts</a>
+                    <a href="#">Men's Casual Shirts</a>
+                    <a href="#">Men's Formal Shirts</a>
+                    <a href="#">Men's Kurtas</a>
+                    <a href="#">Men's Ethnic Sets</a>
+                    <a href="#">Men's Blazers</a>
+                    <a href="#">Men's Raincoat</a>
+                    <a href="#">Men's Windcheaters</a>
+                    <a href="#">Men's Suit</a>
+                    <a href="#">Men's Fabrics</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-item" id="electronics-item">
+            <img src="img4.png" alt="Electronics">
+           
+            <span>Electronics</span>
+            <span class="arrow"></span>
+            <div class="dropdown-container" id="electronics-dropdown">
+                <div class="dropdown-column">
+                    <a href="/http://127.0.0.1:5501/Flipkart-Clone/omkar%20Code/product.html">Laptops</a>
+                    <a href="#">Desktops</a>
+                    <a href="#">Printers</a>
+                    <a href="#">Monitors</a>
+                    <a href="#">Storage Devices</a>
+                    <a href="#">Networking Devices</a>
+                    <a href="#">Cameras</a>
+                    <a href="#">Audio & Video</a>
+                    <a href="#">Gaming</a>
+                    <a href="#">Accessories</a>
+                </div>
+                <div class="dropdown-column">
+                    <a href="#">Televisions</a>
+                    <a href="#">Refrigerators</a>
+                    <a href="#">Washing Machines</a>
+                    <a href="#">Air Conditioners</a>
+                    <a href="#">Kitchen Appliances</a>
+                    <a href="#">Small Appliances</a>
+                    <a href="#">Fans</a>
+                    <a href="#">Geysers & Heaters</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-item" id="home-furniture-item">
+            <img src="https://rukminim2.flixcart.com/flap/70/70/image/ab7e2b022a4587dd.jpg?q=100"
+                alt="Home & Furniture">
+            <span>Home & Furniture</span>
+            <span class="arrow"></span>
+            <div class="dropdown-container" id="home-furniture-dropdown">
+                <div class="dropdown-column">
+                    <a href="#">Home Furnishings</a>
+                    <a href="#">Furniture</a>
+                    <a href="#">Living Room Furniture</a>
+                    <a href="#">Kitchen & Dining</a>
+                    <a href="#">Bedroom Furniture</a>
+                    <a href="#">Space Saving Furniture</a>
+                    <a href="#">Home Decor</a>
+                    <a href="#">Tools & Utility</a>
+                    <a href="#">Work Space Furniture</a>
+                    <a href="#">Kids Furniture</a>
+                    <a href="#">Lightings & Electricals</a>
+                </div>
+                <div class="dropdown-column">
+                    <a href="#">More in Home Furnishings</a>
+                    <a href="#">All</a>
+                    <a href="#">Bed Linens</a>
+                    <a href="#">Bedsheets</a>
+                    <a href="#">Blankets</a>
+                    <a href="#">Curtains & Accessories</a>
+                    <a href="#">Bath linen</a>
+                    <a href="#">Floor coverings</a>
+                    <a href="#">Covers & protectors</a>
+                    <a href="#">Cushions & Pillows</a>
+                    <a href="#">Kitchen Linen Sets</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-item" id="beauty-toys-item">
+            <img src="https://rukminim2.flixcart.com/flap/70/70/image/dff3f7adcf3a90c6.png?q=100"
+                alt="Beauty, Toys & More">
+            <span>Beauty, Toys & More</span>
+            <span class="arrow"></span>
+            <div class="dropdown-container" id="beauty-toys-dropdown">
+                <div class="dropdown-column">
+                    <a href="#">Beauty & Personal Care</a>
+                    <a href="#">Makeup</a>
+                    <a href="#">Skin Care</a>
+                    <a href="#">Hair Care</a>
+                    <a href="#">Fragrances</a>
+                    <a href="#">Toys & Games</a>
+                    <a href="#">Baby Care</a>
+                    <a href="#">Sports & Fitness</a>
+                    <a href="#">Books & More</a>
+                </div>
+                <div class="dropdown-column">
+                    <a href="#">Grooming</a>
+                    <a href="#">Wellness</a>
+                    <a href="#">Appliances</a>
+                    <a href="#">Men's Grooming</a>
+                    <a href="#">Nutrition & Health Care</a>
+                    <a href="#">Musical Instruments</a>
+                    <a href="#">Stationery & Office Supplies</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-item">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/70/70/image/0139228b2f7eb413.jpg?q=100" alt="Appliances">
+            <span>Appliances</span>
+        </div>
+        <div class="category-item">
+            <img src="img7.png" alt="Flight Bookings">
+            <span>Flight Bookings</span>
+        </div>
+        <div class="category-item" id="two-wheelers-item">
+            <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/motorcycle/h/o/u/i3s-self-kick-splendor-i3s-drum-97-2-booking-for-ex-showroom-original-imah6ceybprd8nps.jpeg?q=70"
+                alt="Two Wheelers">
+            <span>Two Wheelers</span>
+            <span class="arrow"></span>
+            <div class="dropdown-container" id="two-wheelers-dropdown">
+                <div class="dropdown-column">
+                    <a href="http://127.0.0.1:5500/Flipkart%20all/flipkart%20vehiclesupage/two-wheeler.html">Petrol vehicle</a>
+                    <a href="#">Electric vehicle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <div class="slide"><img src="img1.png" alt="Slide 1"></div>
+            <div class="slide"><img src="img2.png" alt="Slide 2"></div>
+            <div class="slide"><img src="img5.png" alt="Slide 3"></div>
+            <div class="slide"><img src="img6.png" alt="Slide 4"></div>
+            <div class="slide"><img src="img9.png" alt="Slide 5"></div>
+            <div class="slide"><img src="img10.png" alt="Slide 6"></div>
+        </div>
+        <div class="nav-buttons">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+         
+         
+        <div class="section">
+            <h2>Season's Top Picks</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="img13.jpeg" alt="Dry Fruits">
+                    <p>Dry Fruit, Nut & Seed</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/k/e/9/12-13-years-rk-begam-rayasa-original-imagha7sbyqsnc9x.jpeg?q=70" alt="Women's Gown">
+                    <p>Women's Gowns</p>
+                    <span class="popular">Popular</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/u/t/5/free-red-art-silk-designer-bollywood-fashion-style-litchi-silk-original-imah7w6jfwnhgfyh.jpeg?q=70" alt="Women's Sarees">
+                    <p>Women's Sarees</p>
+                    <span class="offer">Widest Range</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/wall-clock/u/e/7/silent-and-no-ticking-easy-to-read-square-wall-clock-001-analog-original-imaguxhavxjc2gmy.jpeg?q=70" alt="Clocks">
+                    <p>Clocks</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <h2>Summer Fashion</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.C97L8TBBuVYuAwwIhLUBvgHaHa&pid=Api&P=0&h=180" alt="Men's Sports Shoes">
+                    <p>Men's Sports Shoes</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.3qLu229N2f1yEhUecrokVgHaE6&pid=Api&P=0&h=180" alt="Men's Slippers">
+                    <p>Men's Slippers & Flip...</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.YO9cSplsxhJNmnjiiEsMTwHaJW&pid=Api&P=0&h=180" alt="Backpacks">
+                    <p>Backpacks</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.gr7yBvnAnumT7w7BIxfuagHaIZ&pid=Api&P=0&h=180g" alt="Men's Casual Shoes">
+                    <p>Men's Casual Shoes</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+            </div>
+        </div>
+
+         
+        <div class="section">
+            <h2>Appliance for Cool Summer</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/trimmer/6/u/h/-original-imah34krf6jpe7dh.jpeg?q=70" alt="Trimmers">
+                    <p>Trimmers</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/hair-dryer/h/k/w/hair-dryer-1500-watts-2-speed-2-heat-settings-with-rolling-comb-original-imagp6hpvxcvwrjk.jpeg?q=70" alt="Hair Dryers">
+                    <p>Hair Dryers</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70" alt="Cameras">
+                    <p>Cameras</p>
+                    <span class="offer">Min. 30% Off</span>
+                </div>
+                <div class="item">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/fan/b/v/7/eagle-ultra-high-speed-24-inch-smoke-brown-50-2-ceiling-fan-600-original-imah4kykvbhq5t8s.jpeg?q=70" alt="Fans">
+                    <p>Fans</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        
+        <h2>Make Your Home Stylish</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.slRPnIXsPQ1u3gcD8Z4hxQHaHa&pid=Api&P=0&h=180" alt="Mosquito Net">
+                <p>Mosquito Nets</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Rp90KCuIsZk-Lv7w5SjD_wHaIJ&pid=Api&P=0&h=180" alt="Bedsheets">
+                <p>Bedsheets</p>
+<span class="deal">Top Deals</span>
+            </div>
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.ngMdNiH-gWEPx2Ao3oPJcAHaHa&pid=Api&P=0&h=180" alt="Shoe Rack">
+                <p>Shoe Rack</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.0uXywdk7rASmqqp4qKdM5gHaHa&pid=Api&P=0&h=180" alt="Bath Towels">
+                <p>Bath Towels</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+        </div>
+
+        
+        <h2>Wedding & Gifting Specials</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.YFQKpflU-cbLTDXqqHyJsgHaHG&pid=Api&P=0&h=180" alt="Key Holder">
+                <p>Key Holders</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.pyIKpbCWN8gta_oKU0u-aQHaFu&pid=Api&P=0&h=180" alt="Neckband">
+                <p>Neckband</p>
+                <span class="deal">Grab Or Gone</span>
+            </div>
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ELrJaNBna2YvpRUiPIVF4QHaHa&pid=Api&P=0&h=180" alt="Smart Watch">
+                <p>Smart Watches</p>
+                <span class="offer">Min. 40% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://manuals.plus/wp-content/uploads/2023/02/0000-Copy-16.jpg" alt="True Wireless">
+                <p>True Wireless</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+        </div>
+
+         
+        <h2>Join The Cricket Fever!</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="img13.jpeg" alt="Dry Fruit">
+                <p>Dry Fruit, Nut & Seed</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/bat/g/q/j/800-1100-pixpox-poplar-willow-bat-a114-short-handle-xt-46-grade-original-imah2z4zghzkxzjx.jpeg?q=70" alt="Cricket Bat">
+                <p>Cricket Bat</p>
+                <span class="special">Special Offer</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/support/m/o/v/posture-corrector-magnetic-therapy-supports-for-lower-back-upper-original-imagtjkxe3usjqmh.jpeg?q=70" alt="Fitness Accessories">
+                <p>Fitness Accessories</p>
+                <span class="deal">Best Picks</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dumbbell/b/j/w/3-in-1-convertible-dumbbells-barbell-home-gym-set-kit-for-home-original-imahfu5pa5xhc5sb.jpeg?q=70" alt="Dumbbells">
+                <p>Dumbbells</p>
+                <span class="special">Special Offer</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        
+        
+        <h2>Travel Essential Picks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/trimmer/u/p/q/0-5-7-mm-at-538-trimmer-rechargeable-professional-beard-hair-original-imah4nqecgzuwgj2.jpeg?q=70" alt="Trimmer">
+                <p>Trimmers</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/hair-dryer/q/i/w/g-1290-hair-dryer-with-2-speed-controllers-1000w-hair-dryer-1000-original-imah2qfrmwzpffnj.jpeg?q=70" alt="Hair Dryer">
+                <p>Hair Dryers</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/bath-towel/5/i/d/1218-12-12-226-space-fly-18-original-imaha3seuh8qptsf.jpeg?q=70" alt="Bath Towel">
+                <p>Bath Towels</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shaver/s/7/m/km-5001-cc-professional-2in1-cordless-rechargeable-lady-s-shaver-original-imahfcc5ne98yp39.jpeg?q=70" alt="Grooming Kit">
+                <p>Grooming Kit</p>
+                <span class="offer">Min. 50% Off</span>
+            </div>
+        </div>
+        
+
+        <h2>Festive Must-Haves</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/0/m/c/6-mexico-11-6-asian-green-original-imah3be8zydfv4ew.jpeg?q=70" alt="Casual Shoes">
+                <p>Men's Casual Shoes</p>
+                <span class="offer">Min. 70% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/pendant-locket/r/o/l/na-na-ocean-heart-rg-1-wynona-original-imagm6tg9vg4bcyd.jpeg?q=70" alt="Pendants & Lockets">
+                <p>Pendants & Lockets</p>
+                <span class="offer">Min. 70% Off</span>
+            </div>
+            <div class="card">
+<img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-anklet/u/x/s/1-indian-ethnic-white-metal-fanci-payal-for-girls-anklet-women-original-imahafgprywggv4h.jpeg?q=70" alt="Anklets">
+                <p>Anklets</p>
+                <span class="popular">Min. 70% Off</span>
+            </div>
+            <div class="card">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gown/r/v/y/na-xl-3-4-sleeve-stitched-f-2011-nitya-fashion-na-original-imah2q8ezrum2rfb.jpeg?q=70" alt="Women's Gowns">
+                <p>Women's Gowns</p>
+                <span class="popular">Popular</span>
+            </div>
+        </div>
+
+        <div class="fashion-banner">
+            <div class="banner-content">
+                <h2>Shop your fashion Needs</h2>
+                <p>with Latest & Trendy Choices</p>
+                <button>Shop Now</button>
+            </div>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ch3HxHE2Sy5fiIG1j8wioQHaEK&pid=Api&P=0&h=180" alt="Fashion Banner">
+        </div>
+
+    </div>
+
+
+    <div class="products-wrapper">
+        <div class="product-section">
+            <div class="section-header">
+                <h2>Season's Top Picks</h2>
+                <button class="next-btn">▶</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="img13.jpeg" alt="Dry Fruits" />
+                    <p>Dry Fruit, Nut & Seed</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="product-item">
+                    <img src="img15.jpeg" alt="Clock" />
+                    <p>Clocks</p>
+                    <span class="offer">Special Offer</span>
+                </div>
+                <div class="product-item">
+                    <img src="img16.jpeg" />
+                    <p>Women's Gowns</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="product-item">
+                    <img src=".vscode\img20.png" alt="Dress Material" />
+                    <p>Women's Dress Material</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-section">
+            <div class="section-header">
+                <h2>Festive Must-haves</h2>
+                <button class="next-btn">▶</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="img17.jpeg" alt="Watches" />
+                    <p>Watches</p>
+                    <span class="offer">Min. 50% Off</span>
+                </div>
+                <div class="product-item">
+                    <img src="img12.jpeg" alt="Men’s Casual Shoes" />
+                    <p>Men's Casual Shoes</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+                <div class="product-item">
+                    <img src="img11.jpeg" alt="Anklets" />
+                    <p>Anklets</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+                <div class="product-item">
+                    <img src="img14.jpeg" alt="Pendants & Lockets" />
+                    <p>Pendants & Lockets</p>
+                    <span class="offer">Min. 70% Off</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <!--Best of electronic-->
+    <div class="bestofElectronic_Contianer">
+        <div class="bestofElectronic_list">
+            <div class="BestofElectronic_item">
+                <div class="bestofElectronic_bigText">Best of Electronics</div>
+                <a href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&wid=3.dealCard.OMU_3&otracker=hp_omu_Best%2Bof%2BElectronics_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3"
+                    class="viewAllBtn">View All</a>
+                <div class="bestofElectronicmoreOption">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.DEqBD0NhVBidlCoX9vFi4gHaEK&pid=Api&P=0&h=180" alt="Electronics Offers" />
+                </div>
+            </div>
+    
+            <div class="bestofElctronic_product_item">
+                <div class="bestOfElectornic_product_card">
+                    <div class="bestOfElectornic_image_Product">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.jgiyH3bNoAZJEXc2eFJ2DQHaF_&pid=Api&P=0&h=180" alt="Smartphone" />
+                    </div>
+                    <div class="bestofElectornicProduct_name">Latest Smartphones</div>
+                    <div class="bestofElectronic_brand">Realme, Samsung & more</div>
+                    <div class="bestofElecronic_discount">Up to 40% off</div>
+                </div>
+    
+                <div class="bestOfElectornic_product_card">
+                    <div class="bestOfElectornic_image_Product">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.4Kgsc91nAzT8fq29W9XoqwHaFa&pid=Api&P=0&h=180" alt="Monitors" />
+                    </div>
+                    <div class="bestofElectornicProduct_name">Top Monitors</div>
+                    <div class="bestofElectronic_brand">ASUS, LG & more</div>
+                    <div class="bestofElecronic_discount">From ₹7,999</div>
+                </div>
+    
+                <div class="bestOfElectornic_product_card">
+                    <div class="bestOfElectornic_image_Product">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.JA8YTHyXaMNDHgjabg-7EAHaIO&pid=Api&P=0&h=180" alt="Headphones" />
+                    </div>
+                    <div class="bestofElectornicProduct_name">Best Headphones</div>
+                    <div class="bestofElectronic_brand">boAt, Sony & more</div>
+                    <div class="bestofElecronic_discount">Up to 70% off</div>
+                </div>
+    
+                <div class="bestOfElectornic_product_card">
+                    <div class="bestOfElectornic_image_Product">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.RvrVVgm5vRSOgGT9stzLeAHaGk&pid=Api&P=0&h=180" alt="Power Banks" />
+                    </div>
+                    <div class="bestofElectornicProduct_name">Power Banks</div>
+                    <div class="bestofElectronic_brand">Mi, Realme & more</div>
+                    <div class="bestofElecronic_discount">Minimum 40% off</div>
+                </div>
+    
+                </div>
+        </div>
+    </div>
+    <!-- Main Layout -->
+  <div class="main-layout">
+
+    <!-- Sidebar Filters -->
+    <aside class="sidebar">
+      <h3>Filters</h3>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">PRICE</h4>
+        <div class="filter-content">
+          <input type="range" min="100" max="1500" value="1500" class="slider">
+          <div class="price-labels">
+            <select>
+              <option>Min</option>
+              <option value="100">₹100</option>
+              <option value="200">₹500</option>
+              <option value="300">₹500</option>
+              <option value="500">₹500</option>
+            </select>
+            <select>
+              <option>₹3000+</option>
+              <option value="1000">₹1000</option>
+              <option value="1500">₹1500</option>
+              <option value="1500">₹2000</option>
+              <option value="1500">₹2050</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">BRAND</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> Parnavi</label>
+          <label><input type="checkbox"> IRIS</label>
+          <label><input type="checkbox"> JATADHAR</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">GENDER</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> Women</label>
+          <label><input type="checkbox"> Unisex</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">DISCOUNT</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> 10% or more</label>
+          <label><input type="checkbox"> 50% or more</label>
+          <label><input type="checkbox"> 100% or more</label>
+          <label><input type="checkbox"> 199% or more</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">TYPE</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> Cotton</label>
+          <label><input type="checkbox"> Silk</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">PATTERN</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> Printed</label>
+          <label><input type="checkbox"> Embroidered</label>
+          <label><input type="checkbox"> cashmere</label>
+          <label><input type="checkbox"> wool</label>
+          
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h4 onclick="toggleFilter(this)">COLOR</h4>
+        <div class="filter-content">
+          <label><input type="checkbox"> Red</label>
+          <label><input type="checkbox"> Green</label>
+          <label><input type="checkbox"> Blue</label>
+          <label><input type="checkbox"> Pink</label>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Product Content -->
+    <main class="main-content">
+      <div class="content-header">
+        <h2>Women's Dress Materials</h2>
+        <div class="sort-options">
+          <span>Sort By:</span>
+          <button onclick="sort('popularity')">Popularity</button>
+          <button onclick="sort('lowToHigh')">Price -- Low to High</button>
+          <button onclick="sort('highToLow')">Price -- High to Low</button>
+          <button onclick="sort('newest')">Newest First</button>
+        </div>
+      </div>
+
+      <section class="product-grid">
+        <!-- Dummy product cards -->
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/s/g/c/yes-2-m-unstitched-2-m-2-5-m-1587-thira-original-imagmbefx6kgwstc.jpeg?q=70"
+            alt="Dress">
+          <h4>VERCO</h4>
+          <p>₹599</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/h/o/y/yes-2-m-unstitched-2-m-2-5-m-fk-ys-og-pramila-green-house-of-original-imah5wtkn2yxg2pu.jpeg?q=70"
+            alt="Dress">
+          <h4>Embroidered Silk Set</h4>
+          <p>₹999</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/r/x/u/yes-2-10m-unstitched-2-m-2-5-m-pr2cwdm07-murta-original-imahyyt7m3zsthyg.jpeg?q=70"
+            alt="Dress">
+          <h4>Floral Printed Kurti</h4>
+          <p>₹699</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/u/f/t/yes-2-2-m-unstitched-2-5-m-sc-prisha-black-gbg-anirav-original-imaghfujwrmkbxsj.jpeg?q=70"
+            alt="Dress">
+          <h4>Traditional Wear</h4>
+          <p>₹849</p>
+        </div>
+      </section>
+
+
+
+      <section class="product-grid">
+        <!-- Dummy product cards -->
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/r/b/t/yes-2-m-unstitched-2-2-m-flower-pink-shreehari-original-imah7my7mnkpmhbc.jpeg?q=70"
+            alt="Dress">
+          <h4>YASHIKA </h4>
+          <p>₹266</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/p/p/8/yes-2-m-semi-stitched-2-10m-pakistani-suit-zf50183-zonfab-original-imaghjd6hh5qywhf.jpeg?q=70"
+            alt="Dress">
+          <h4>ZONFAB</h4>
+          <p>₹994</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/y/h/t/yes-2-m-unstitched-2-m-2-5-m-thira-z-b61-1489-thira-z-original-imah8wswbexsnkug.jpeg?q=70"
+            alt="Dress">
+          <h4>Aditi Fashion</h4>
+          <p>₹369</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/o/8/a/yes-2-25-m-unstitched-2-2-m-hoc-6047-01-house-of-common-original-imah8k8paqnc9z2n.jpeg?q=70"
+            alt="Dress">
+          <h4>YANKITA</h4>
+          <p>₹489</p>
+        </div>
+      </section>
+      <section class="product-grid">
+        <!-- Dummy product cards -->
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/2/a/o/yes-2-25-m-unstitched-2-2-m-6047-clemira-original-imah3ztmhvsvbrzr.jpeg?q=70"
+            alt="Dress">
+          <h4>YASHIKA </h4>
+          <p>₹489</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/8/r/t/yes-2-25-m-unstitched-2-5-m-suit-meterial-01-vini-enterprises-original-imah5tnnzxfxbjux.jpeg?q=70"
+            alt="Dress">
+          <h4>Vini Enterprises</h4>
+          <p>₹661</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/4/j/u/yes-2-m-unstitched-2-m-2-5-m-thira-l1-lok-a-1620-the-thira-original-imah8dygvn52uyyq.jpeg?q=70"
+            alt="Dress">
+          <h4>djn creation</h4>
+          <p>₹289</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/672/672/xif0q/fabric/c/j/o/yes-2-m-unstitched-2-m-2-5-m-1506-thira-original-imah3gzabzvspz6u.jpeg?q=70&crop=false"
+            alt="Dress">
+          <h4>THIRA</h4>
+          <p>₹262</p>
+        </div>
+      </section>
+      <section class="product-grid">
+        <!-- Dummy product cards -->
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/1791/1791/xif0q/kurta/l/q/0/3xl-selfiecombo2-maroon-green-vividh-creationss-original-imagkzz9pguyffru.jpeg?q=70&crop=false"
+            alt="Dress">
+          <h4>VIVIDH CREATIONSS</h4>
+          <p>₹398</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/312/312/xif0q/fabric/t/q/p/yes-2-2-m-unstitched-2-5-m-sc-himani-black-gbg-anirav-original-imaghfujha5mctyw.jpeg?q=70&crop=false"
+            alt="Dress">
+          <h4>Salwar Suit</h4>
+          <p>₹266</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/312/312/xif0q/fabric/d/v/f/yes-2-m-unstitched-2-m-2-5-m-l1-ylok-1225-yashika-original-imah7qtbayt3a9h5.jpeg?q=70&crop=false"
+            alt="Dress">
+          <h4>Salwar Suit Material Printed</h4>
+          <p>₹369</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://rukminim2.flixcart.com/image/1290/1290/xif0q/kurta/t/4/f/xl-bkgreen-aerotick-original-imah8knfrd5dhveg.jpeg?q=70&crop=false"
+            alt="Dress">
+          <h4>aerotick </h4>
+          <p>₹398</p>
+        </div>
+      </section>
+      </div>
+    
+      </div>
+  </div>
+
+  
+  <title>Flipkart Style Home Furnishing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .price {
+      font-size: 16px;
+      color: green;
+      margin-bottom: 5px;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+      font-size: 13px;
+      margin-left: 5px;
+    }
+
+    .discount {
+      color: green;
+      font-size: 13px;
+      margin-left: 5px;
+    }
+
+    .rating {
+      font-size: 14px;
+      color: #ffa500;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: green;
+      color: white;
+      font-size: 12px;
+      padding: 3px 6px;
+      border-radius: 4px;
+    }
+
+    .stock {
+      color: red;
+      font-size: 13px;
+    }
+  </style>
+  <h2>Home Furnishing</h2>
+
+  <div class="product-grid">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJmv0Jr13qpCZDgpeT_kuvaTSNOlZYu2K2QA&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPRny6RhU4hst-rzkepmK4TkqsdhGHni05Ig&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="data:image/jpeg;base64,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" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="data:image/jpeg;base64,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" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div>
+     <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbGdRBCqn6jQmv1kVp283RWQdOomOMhPVv5Q&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcLg5ggS_WGOqFTLtYqUT2YN5O0RXLyaByA&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR579aI7jynE6B2bAFb8G4Cs7mwZuV-OCXrgQ&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLo09H3HyMliV9oanPzefz-vZGRDVrvx9zbw&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div>
+     <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNVycBHXd6JMZUX3rUrQ2HEa1qVFyELZF2Rg&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXiDRiYEFPtrxzrJH6s00XBu0YbW4uCfmgwg&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0GWy7ZcM-u3cafakijUuJg6MdB5m6ppGqg&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Zll5LQxWGxYQoJSPVm8IR4jMYB9katAvXw&s" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div>
+     <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTp0Y9zb3hLKDB-l2fuAyF_0sK2__3DawVEg&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf2MOgL6W9unlU9YFRGap84vJnb41xZs8CHQ&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUMp5iuRqNXzH7EXcxA9DRyRr8Rrvjo-TZg&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSil1O3w4eqgcT0U3CvK3quVuovQlJby901_A&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div>
+     <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsTZsimVXemsAFoAFzbelyhTsV-Id80Lo26w&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBfkVzQetYjdO6KV8j56Xo5RV5uQ7bTixSTg&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJH2cQ5-h0OKEr6IKm6kcIAt8PM1cEqlF3w&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeIjDTqRF-rqr7qgUO4xVsqzq4yQOCM1XACg&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div> <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXqBHEbewDsLl3N_92dyE5foRakWoBaI2CNA&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFi-WhDlTyfp4H3T4zGFuLq-jd5atsXksNJA&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1SmC76E4YvUwkRhnppuiklIdYfsYVELSnQ&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTayUgntkm08KbFpAr8xGnY-MMJ7L3XHoPuBw&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div> <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnLLpY94QNFhxK29N7cSrQ1il7FwHhUsong&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVdVRxGIn9EIc1JUTuNqQq1dmlPIu3IURr-w&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QdjxFm7XA-oic80lmiOX_eM2_T9VlUT9XA&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7AJpj9LeJb9ZekKmnK-wgN7nACNAtOi87w&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div> <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwfrTyBMxh-mbmqsixCsWFX5aLR7rT9s4Gg&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2gnFxR8TgKd0Q_duFjNrdtOe4osNn4pGzg&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VW9NWTHIZsm8nvZT3cdcpn8QEZ9EmkXcqg&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlEOWta3MsOQqxLnLYNNauLJ9KicZjUxdMQ&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div> <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuWMr97DCrsx3fS-SUWBGI-kn9f0HqnqeOaQ&s" alt="Mattress" class="product-img">
+      <div class="product-info">
+        <div class="product-title">VAS COLLECTIONS Zippered Double Size...</div>
+        <div class="price">₹679 <span class="old-price">₹1,999</span><span class="discount">66% off</span></div>
+        <div class="rating">★ 3.9 (1,903)</div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwas0IPl5diozvKkKPtyWPzVm6Z2oY2NAPQ&s" alt="Magnetic Door" class="product-img">
+      <div class="product-info">
+        <div class="product-title">TurtleGrip Polyester Washable Magnetic...</div>
+        <div class="price">₹818 <span class="old-price">₹1,699</span><span class="discount">51% off</span></div>
+        <div class="rating">★ 4.3 (9,959)</div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">Bestseller</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgy4emD16NosL7OjTOaciQhavb0md2njBlg&s" alt="Mosquito Net" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Privine Polyester Double Bed Mosquito Net...</div>
+        <div class="price">₹278 <span class="old-price">₹2,772</span><span class="discount">89% off</span></div>
+        <div class="stock">Only few left</div>
+        <div class="rating">★ 3.8 (1,60,944)</div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgy4emD16NosL7OjTOaciQhavb0md2njBlg&s" alt="Fridge Cover" class="product-img">
+      <div class="product-info">
+        <div class="product-title">Crosmo Refrigerator Cover - Brown Tree</div>
+        <div class="price">₹97 <span class="old-price">₹749</span><span class="discount">87% off</span></div>
+        <div class="rating">★ 4.1 (19,535)</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Example JavaScript to handle clicks (for expansion or details)
+    const cards = document.querySelectorAll('.product-card');
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        alert("Product Clicked: " + card.querySelector('.product-title').textContent);
+      });
+    });
+  </script>
+
+
+    
+</main>
+
+
+
+
+
+<script src="javascript.js" type="module"></script>
+<script src="imageSlider.js" type="slide"></script>
+
+    <footer>
+
+        <div class="footerSection">
+    
+          <div class="footerLeft">
+    
+            <div class="footerInfo">
+              <p class="footerInfoHeading">ABOUT</p>
+              <div class="footerContent">
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Flipkart Stories</p>
+                <p>Press</p>
+                <p>Flipkart Wholesale</p>
+                <p>Corporate Information</p>
+              </div>
+            </div>
+    
+            <div class="footerInfo">
+              <p class="footerInfoHeading">HELP</p>
+              <div class="footerContent">
+                <p>Payments</p>
+                <p>Shipping</p>
+                <p>Cancellation & Returns</p>
+                <p>FAQ</p>
+                <p>Report Infringement</p>
+              </div>
+            </div>
+    
+            <div class="footerInfo">
+              <p class="footerInfoHeading">CONSUMER POLICY</p>
+              <div class="footerContent">
+                <p>Cancellation & Returns</p>
+                <p>Terms Of Use</p>
+                <p>Security</p>
+                <p>Privacy</p>
+                <p>Sitemap</p>
+                <p>Grievance Redressal</p>
+                <p>EPR Compliance</p>
+              </div>
+            </div>
+    
+    
+            <div class="footerInfo">
+              <p class="footerInfoHeading">SOCIAL</p>
+              <div class="footerContent">
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>YouTube</p>
+              </div>
+            </div>
+    
+          </div>
+          <div class="footerRight">
+            <div class="footerInfo">
+    
+              <p class="footerInfoHeading">Mail Us:</p>
+              <div class="footerContent">
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p>Karnataka, India</p>
+              </div>
+            </div>
+            <div class="footerInfo">
+              <p class="footerInfoHeading">Registered Office Address:</p>
+              <div class="footerContent">
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p>Karnataka, India</p>
+                <p>CIN : U51109KA2012PTC066107</p>
+                <p>Telephone: 044-45614700</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerExtras">
+          <span><i class="fa-solid fa-suitcase" style="color: #ffe500;"></i> Become a Seller</span>
+          <span><i class="fa-solid fa-star" style="color: #ffe500;"></i> Advertise</span>
+          <span><i class="fa-solid fa-gift" style="color: #ffe500;"></i> Gift Cards</span>
+          <span><i class="fa-solid fa-circle-question" style="color: #ffe500;"></i> Help Center</span>
+          <span>© 2007-2023 Flipkart.com</span>
+          <span><img src="images/payment-method.svg" alt="payment-method"></span>
+    
+        </div>
+    
+      </footer>
+</body>
+</html>
